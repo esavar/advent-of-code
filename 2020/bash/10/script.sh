@@ -25,7 +25,7 @@ for ((i=0; i<=len; i++)); do
   elif [[ $substraction -eq 3 ]]; then
     # echo "Rows of one: $newones"
     if [[ $newones -eq 2 ]] ; then
-      # Row of two means only one can be toggled being connected or not 2^1
+      # Row of two means only one can be toggled being connected or not
       ((options*=2))
     elif [[ $newones -eq 3 ]]; then
       # Row of three means two can be toggled
